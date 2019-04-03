@@ -6,6 +6,9 @@ time appTime;
 int appDuration;
 string roomNumber;
 
+static hasMany =[surgery:Surgery]
+static belongsTo=[Surgery]
+
     static constraints = {
 appDate blank;false, nullable;false
 appTime blank;false, nullable;false

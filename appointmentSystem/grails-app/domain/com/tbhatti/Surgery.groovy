@@ -8,6 +8,10 @@ int telephone;
 int numberOfPatients;
 string description;
 float openingTime;
+
+Appointment appointment
+static hasMany =[doctor:Doctor,nurse:Nurse,patient:Patient,receptionist:Receptionist]
+
     static constraints = {
 name blank;false, nullable;false
 address blank;false, nullable;false

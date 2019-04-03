@@ -9,6 +9,11 @@ string password;
 String doctorOffice;
 String doctorPhone;
 String bio;
+
+static hasMany =[prescription:Prescription,appointment:Appointmentm,nurse:Nurse,surgery:Surgery]
+
+static belongsTo=[Surgery]
+
     static constraints = {
 fullname blank;false, nullable;false
 qualifaction blank;false, nullable;false

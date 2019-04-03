@@ -9,6 +9,10 @@ String patientID;
 date dateRegistered;
 int patientPhone;
 
+
+Appointment appointment
+static hasMany=[prescription:Prescription, surgery:Surgery]  
+
     static constraints = {
 patientName blank;false, nullable;false
 patientAddress blank;false, nullable;false

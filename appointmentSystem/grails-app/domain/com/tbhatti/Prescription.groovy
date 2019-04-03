@@ -4,9 +4,14 @@ class Prescription {
 String pharmacyName;
 int prescripNumber;
 String medicine;
-int totalCost;
+double totalCost;
 date dateIssued;
 enum patientPaying;
+
+Patient patient 
+Doctor doctor
+
+
 
     static constraints = {
 pharmacyName blank;false, nullable;false

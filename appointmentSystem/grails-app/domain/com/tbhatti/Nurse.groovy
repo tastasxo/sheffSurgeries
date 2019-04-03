@@ -7,6 +7,9 @@ string nurseEmail;
 string nurseOffice;
 int nursePhone;
 
+static hasMany =[surgery:Surgery]
+static belongsTo=[Surgery]
+
     static constraints = {
 nurseName blank;false, nullable;false
 qualifications blank;false, nullable;false
