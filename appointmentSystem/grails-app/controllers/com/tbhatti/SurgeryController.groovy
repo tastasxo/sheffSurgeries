@@ -2,5 +2,5 @@ package com.tbhatti
 
 class SurgeryController {
 
-    def surgery=Surgery
+    def scaffold=Surgery
 }

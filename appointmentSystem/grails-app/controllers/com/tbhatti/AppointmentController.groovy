@@ -2,5 +2,5 @@ package com.tbhatti
 
 class AppointmentController {
 
-    def appointment= Appointment
+    def scaffold= Appointment
 }
