@@ -2,8 +2,8 @@ package com.tbhatti
 
 class Appointment {
 	Date appDate
-	Time appTime
-	int appDuration
+	String appTime
+	String appDuration
 	String roomNumber
 
 static hasMany =[surgery:Surgery]

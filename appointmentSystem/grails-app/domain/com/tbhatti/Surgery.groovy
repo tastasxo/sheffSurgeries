@@ -1,13 +1,13 @@
 package com.tbhatti
 
 class Surgery {
-	string name
-	string address
-	string postcode
+	String name
+	String address
+	String postcode
 	int telephone
 	int numberOfPatients
-	string description
-	float openingTime
+	String description
+	String openingTime
 
 Appointment appointment
 static hasMany =[doctor:Doctor,nurse:Nurse,patient:Patient,receptionist:Receptionist]
